@@ -1,0 +1,312 @@
+@font-face {
+    font-family: "Lemon Milk Bold";
+    src: url(../fonts/LEMONMILK-Bold.woff);
+}
+@font-face {
+    font-family: "Lemon Milk Regular";
+    src: url(../fonts/LEMONMILK-Regular.woff);
+}
+@font-face {
+    font-family: "Lemon Milk Medium";
+    src: url(../fonts/LEMONMILK-Medium.woff);
+}
+@font-face {
+    font-family: "Lemon Milk Light";
+    src: url(../fonts/LEMONMILK-Light.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lemon Milk Regular", sans-serif;
+    overflow-x: hidden;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+#secao1{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background: #AD1C29 url(../img/spiderman.jpg) no-repeat top right;
+    background-size: 80vh;
+    background-position: right;
+    background-attachment: fixed;
+}
+.conteudo{
+    float: left;
+    width: 50%;
+}
+.box{
+    width: 70%;
+    height: 90vh;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: left;
+}
+@media screen and (min-width: 1920px) {
+    
+    .box h2{
+        font-size: 6.5em;
+        text-align: left;
+    }
+    .box p{
+        font-size: 25px;
+    }
+    .conteudo3 h2{
+        text-align: center;
+    }
+    .card{
+        border-radius: 0 50px;
+    }
+}
+h2{
+    font-family: "Lemon Milk Medium";
+    color: #fff;
+    font-size: 4.5em;
+    /* text-align: justify; */
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+.box a{
+    color: #AD1C29;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px 30px;
+    border-radius: 0 25px;
+    box-shadow: 5px 5px 8px #000;
+    outline: none;
+    border: none;
+}
+.box2 a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    background-color: #AD1C29;
+    padding: 15px 30px;
+    border-radius: 0 25px;
+    box-shadow: 5px 5px 8px #000;
+    outline: none;
+    border: none;
+}
+.box a:hover, .box2 a:hover{
+    padding: 17px 32px;
+    font-size: 18px;
+}
+.imagem{
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+#secao2{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #fff;
+    background-attachment: fixed;
+}
+.conteudo2{
+    margin-top: 30px;
+    /* margin-left: 30px; */
+    float: right;
+    width: 50%;
+}
+.conteudo2 h2{
+    color: #AD1C29;
+    font-size: 3.5em;
+}
+.box2 p{
+    text-align: left;
+    line-height: 28px;
+}
+.box2{
+    /* border: 1px solid blue; */
+    width: 80%;
+    height: 60vh;
+}
+.box2 ul{
+    list-style: none;
+    /* padding: 10px; */
+    margin-bottom: 30px;
+}
+.box2 ul li{
+    padding: 5px 9%;
+    background: url(../img/barra.png) no-repeat left center;
+    background-size: 8%;
+}
+.imagem{
+    float: left;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+}
+.imagem img{
+    width: 70%;
+}
+/* Seção 3 */
+#secao3{
+    width: 100%;
+    height: 100vh;
+    background-color: #AD1C29;
+}
+.conteudo3{
+    padding-top: 20px;
+
+}
+.conteudo3 h2{
+    text-align: center;
+    font-size: 3em;
+}
+.box3{
+    text-align: center;
+    line-height: 25px;
+}
+h4{
+    font-size: 1.3em;
+}
+.box3 p{
+    text-align: center;
+    color: rgb(30, 30, 30);
+}
+/* Cards */
+.cards{
+    display: flex;
+    padding: 0 15px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+.card{
+    background-color: #fff;
+    padding: 15px;
+    width: 20%;
+    height: 70%;
+    text-align: center;
+    border-radius: 20px 20px;
+}
+.card:hover{
+    box-shadow: 0px 0px 20px 3px black;
+    width: 21%;
+}
+.wallet{
+    width: 100%;
+    text-align: center;
+}
+.wallet img{
+    width: 45%;
+}
+.card ul{
+    list-style: none;
+    padding: 5px
+}
+.card ul li{
+    padding: 10px;
+    text-align: center;
+}
+.card ul li a{
+    text-decoration: none;
+    color: #ccc;
+}
+.selected{
+    background-color: #AD1C29;
+    color: #fff;
+    border-radius: 0 25px;
+}
+.card h3{
+    color: #AD1C29;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 8px;
+}
+.card h4{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.assinar{
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    background-color: #AD1C29;
+    padding: 5px 80px;
+    /* border-radius: 0 20px; */
+    border: none;
+}
+.assinar:hover{
+    /* color: #000; */
+    background: green;
+}
+/* Seção 4 */
+#secao4{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    padding: 10px;
+}
+.conteudo4 h2{
+    color: #AD1C29;
+    text-align: center;
+    font-size: 3em;
+}
+.contato{
+    width: 50%;
+    height: 70vh;
+    float: left;
+    /* background-color: blue; */
+
+}
+.contato h2{
+    text-align: left;
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+form{
+    padding: 20px;
+    background-color: #AD1C29;
+}
+form legend{
+    font-family: "Lemon Milk Bold", sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 6px;
+}
+form input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    width: 100%;
+}
+form input[type="submit"]{
+    margin-top: 15px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+}
+.suporte{
+    float: right;
+    width: 50%;
+    text-align: center;
+    /* background-color: #AD1C29; */
+}
+.suporte img{
+    width: 70%;
+}
